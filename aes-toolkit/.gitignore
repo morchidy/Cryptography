@@ -1,0 +1,51 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.a
+*.so
+*.dylib
+
+# Executable
+aes_attack
+attack_3_5
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Compiled latex
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
+# Test results
+data/attack_results/*.json
+data/attack_results/*.csv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
